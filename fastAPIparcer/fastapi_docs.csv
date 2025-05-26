@@ -1,0 +1,8 @@
+path,method,summary,description,parameters_count,success_response
+/todos,GET,Get Todos,,0,Successful Response
+/todos,POST,Create Todo,,0,
+/agile-lists,GET,Get Agile Lists,,0,Successful Response
+/agile-lists,POST,Create Agile List,,0,
+/agile-tasks,POST,Create Agile Task,,0,
+/agile-tasks,GET,Get Agile Tasks,,1,Successful Response
+/agile-tasks/{task_id}/status,PATCH,Update Task Status,,1,Successful Response
